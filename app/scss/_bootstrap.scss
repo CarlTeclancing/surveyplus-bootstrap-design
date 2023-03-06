@@ -1,0 +1,9 @@
+
+@use "utilities" as survey;
+
+$primary: survey.$surveyPrimary;
+$light: survey.$surveyLight;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";

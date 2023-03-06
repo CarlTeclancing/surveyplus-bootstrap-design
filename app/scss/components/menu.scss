@@ -1,0 +1,30 @@
+@use "../utilities" as *;
+
+.primary_menu{
+
+    &__nav{
+        a{
+            position: relative;
+
+            &:hover{
+                color: $surveyPrimary!important;
+                transition: all 150ms ease-in-out;
+            }
+
+            &.active{
+                
+                &::after{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    content: "";
+                    width: 100%;
+                    height: rem(4);
+                    background-color: $surveyPrimary;
+                }
+
+            }
+        }
+    }
+
+}
