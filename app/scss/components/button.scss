@@ -1,0 +1,23 @@
+@use "../utilities" as *;
+
+.surveybtn{
+    
+
+        &--facebook{
+            background-color: $facebookBlue!important;
+
+            &:hover{
+                background-color: lighten($facebookBlue, 10%)!important;
+            }
+        }
+
+        &--gmail{
+            background-color: $gmailRed!important;
+
+            &:hover{
+                background-color: lighten($gmailRed, 10%)!important;
+            }
+        }
+    
+
+}
